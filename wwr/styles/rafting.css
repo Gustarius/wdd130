@@ -86,14 +86,8 @@ h1 {
     color: #fff;
 }
 
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+.hero article {
+    position: absolute;
 }
 
 .hero p {
