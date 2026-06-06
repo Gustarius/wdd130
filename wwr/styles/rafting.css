@@ -3,9 +3,6 @@
     --primary-color: #043104;
     /* forest green */
     --accent1-color: #264653;
-    /* dark slate blue */
-    --accent2-color: #e9c46a;
-    /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -47,7 +44,7 @@ nav a:hover {
     color: #000;
 }
 
-.banner {
+.main {
     position: relative;
     background-image: url("rafting.jpg");
     background-size: cover;
@@ -61,7 +58,7 @@ nav a:hover {
 
 }
 
-.banner h1 {
+.main h1 {
     position: absolute;
     top: 20px;
     width: 100%;
