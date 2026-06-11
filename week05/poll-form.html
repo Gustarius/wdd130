@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column1">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item column2">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Questions</legend>
+            <label for="browser">What is your favorite internet browser?</label>
+            <select name="browser" id="browser">
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="edge">Edge</option>
+                <option value="brave">Brave</option>
+                <option value="other">Other</option>
+            </select><br>
+
+
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet"><br>
+            <label for="feedback">List the places you have lived</label>
+            <textarea id="feedback" name="feedback" rows="4"
+              placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+            <div class="container">
+                <button type="submit">Submit Poll</button>
+            </div>
+        </fieldset>
+
+    </form>
+    <!-- <form>
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="message">Your Message</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br>
+
+        <label><input type="checkbox" id="newsletter" name="newsletter"> Send me updates</label>
+    </form> -->
+
+    <footer>
+        <p>©2026 | HTML Form - User Poll Activity | Urlin Gustave</p>
+    </footer>
+</body>
+
+
+</html>
