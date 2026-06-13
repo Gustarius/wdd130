@@ -274,3 +274,9 @@ fieldset.gallery-contact {
     padding: 1rem;
 
 }
+
+.contact h1 {
+    color: #000;
+    position: relative;
+    background: none;
+}
