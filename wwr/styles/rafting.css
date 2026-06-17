@@ -417,6 +417,7 @@ button:hover {
 .trip-descriptions h2 {
     margin-bottom: 1.5rem;
     padding: 2rem;
+    color: #004466;
 }
 
 .trip-grid {
@@ -447,6 +448,11 @@ button:hover {
 
 .trips-table {
     padding: 2rem;
+}
+
+.trips-table h2 {
+    margin: 1rem;
+    color: #004466;
 }
 
 .trips-table table {
